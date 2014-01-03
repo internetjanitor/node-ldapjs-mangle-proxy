@@ -1,0 +1,30 @@
+{
+  "name": "ldapjs-mangle-proxy",
+  "version": "0.0.1",
+  "description": "Framework for creating an LDAP proxy that mangles requests and responses on the fly.",
+  "main": "lib/index.js",
+  "dependencies": {
+    "asn1": "~0.1.11",
+    "binary": "~0.3.0",
+    "bunyan": "~0.22.0",
+    "ldapjs": "~0.7.0",
+    "memwatch": "~0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pfmooney/node-ldapjs-mangle-proxy.git"
+  },
+  "keywords": [
+    "ldap"
+  ],
+  "author": "Patrick Mooney <patrick.f.mooney@gmail.com>",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/pfmooney/node-ldapjs-mangle-proxy/issues"
+  }
+}
